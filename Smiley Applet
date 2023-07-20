@@ -1,0 +1,26 @@
+// Create Smiley in Java Applet
+import java.applet.*; 
+import java.awt.*;
+
+public class Smiley extends Applet
+{
+public void paint(Graphics g)
+ {      
+
+        g.setColor(new Color(255,201,14));
+        g.fillOval(100,200,200,200);
+        g.setColor(Color.WHITE);
+        g.fillOval(130,250,50,50);
+        g.setColor(Color.WHITE);
+        g.fillOval(220,250,50,50);
+        g.setColor(Color.BLACK);
+        g.fillOval(135,255,40,40);
+        g.setColor(Color.BLACK);
+        g.fillOval(225,255,40,40);
+        g.setColor(new Color(205,16,26));
+        g.fillArc(155,300,90,74,0,-180);
+
+ }
+}
+/*<applet code="Smiley" width="500" height="500"> 
+</applet>*/
